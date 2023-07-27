@@ -1,0 +1,28 @@
+{
+    "name": "social-network-api",
+    "version": "1.0.0",
+    "description": "social-network-api",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index",
+        "seed": "node utils/seed",
+        "heroku-postbuild": "node utils/seed.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/domconf/Social_Network_API"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "homepage": "https://github.com/domconf/Social_Network_API",
+    "dependencies": {
+        "dayjs": "^1.11.7",
+        "express": "^4.17.1",
+        "mongoose": "^6.0.13"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.9"
+    }
+}
